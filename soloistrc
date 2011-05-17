@@ -1,0 +1,5 @@
+cookbook_paths:
+- .
+recipes:
+- erlang::default
+- ejabberd::default
