@@ -6,7 +6,14 @@ execute "clone cumulus repo" do
 end
 
 template "#{cumulus_location}/CumulusLib/Makefile" do
-  source "Makefile"
+  source "CumulusLib-Makefile"
+  owner "root"
+  group "staff"
+  mode 0640
+end
+
+template "#{cumulus_location}/CumulusService/Makefile" do
+  source "CumulusService-Makefile"
   owner "root"
   group "staff"
   mode 0640
