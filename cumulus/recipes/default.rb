@@ -27,5 +27,14 @@ script "build cumulus" do
   make
   cd ../CumulusService
   make
+  echo "****************************************************"
+  echo "****************************************************"
+  echo "****************************************************"
+  echo "Change ownership of #{cumulus_location} to your normal user before running the service!"
+  echo "Otherwise it will abort trap."
+  echo "****************************************************"
+  echo "****************************************************"
+  echo "****************************************************"
   SH
 end
+
