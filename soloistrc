@@ -3,3 +3,5 @@ cookbook_paths:
 recipes:
 - erlang::default
 - ejabberd::default
+- poco::default
+- cumulus::default

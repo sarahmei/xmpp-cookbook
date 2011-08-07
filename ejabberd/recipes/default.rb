@@ -3,7 +3,7 @@ script "download Ejabberd" do
   interpreter "bash"
   cwd "/tmp"
   code <<-SH
-  wget http://www.process-one.net/downloads/ejabberd/2.1.6/ejabberd-2.1.6.tar.gz
+  curl http://www.process-one.net/downloads/ejabberd/2.1.6/ejabberd-2.1.6.tar.gz -o ejabberd-2.1.6.tar.gz
   tar xzf ejabberd-2.1.6.tar.gz
   SH
 end
