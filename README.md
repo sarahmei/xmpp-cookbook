@@ -2,7 +2,12 @@ Chef Recipe for Erlang, Ejabberd & Friends
 ==========================================
 
 # What
-A chef recipe and soloist file to get erlang, ejabberd, poco, and cumulus set up for development work.
+A chef recipe and soloist file to get
+[erlang](https://github.com/erlang/otp),
+[ejabberd](https://github.com/processone/ejabberd),
+[poco](http://pocoproject.org/), and
+[cumulus](https://github.com/OpenRTMFP/Cumulus)
+set up for development work.
 Intended for use on OS X. May accidentally work on other *nixes.
 
 Based on jdiseno's highly useful [recipe for erlang and ejabberd](https://github.com/jdeseno/erlang-ejabberd-chef-cookbooks).
