@@ -1,5 +1,5 @@
 execute "download poco" do
-  not_if "test -f /tmp/otp_src_R14B02.tar.gz"
+  not_if "test -f /tmp/poco-1.4.1p1.tar.gz"
   command "curl http://surfnet.dl.sourceforge.net/project/poco/sources/poco-1.4.1/poco-1.4.1p1.tar.gz -o /tmp/poco-1.4.1p1.tar.gz"
 end
 
