@@ -8,6 +8,6 @@ Cumulus recipe currently doesn't work - this may mean cumulus just doesn't insta
 
 Based on jdiseno's highly useful [recipe for erlang and ejabberd](https://github.com/jdeseno/erlang-ejabberd-chef-cookbooks).
 
-To setup on a local box, install [Soloist](https://github.com/mkocher/soloist) 
+To set up on a local box, install [Soloist](https://github.com/mkocher/soloist)
 `gem install soloist`, then run `soloist` from this project's directory.
 

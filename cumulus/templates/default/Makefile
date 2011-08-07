@@ -11,7 +11,8 @@ OBJECT = $(OBJECTS:%=%.o)
 
 main: $(OBJECT)
 	@echo creating dynamic lib $(LIB)
-	@$(CC) $(OBJECT) $(LIBS) -dylib -arch x86_64 -o /usr/lib/$(LIB)
+	@echo running command: $(CC) $(OBJECT) $(LIBS) -dynamiclib -arch x86_64 -o /usr/lib/$(LIB)
+	@$(CC) $(OBJECT) $(LIBS) -dynamiclib -arch x86_64 -o /usr/lib/$(LIB)
 
 $(OBJECT): 
 	@echo compiling $(@:%.o=%.cpp)
